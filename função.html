@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let nome = prompt("qual o seu nome ?")
+        let nascimento = prompt("que ano você nasceu ?")
+        let atualidade = 2024
+
+        function idade(nascimento){
+            let resultado = atualidade - nascimento
+            return resultado;
+        }
+        let idade02 = idade(nascimento);
+
+        document.write("Amigo "+ nome +", aparentemente a sua idade é "+ idade02 +"")
+
+    </script>
+</body>
+</html>
